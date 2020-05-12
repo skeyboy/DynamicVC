@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		BFAFFB06246A812A00FD671D /* DynamicVC.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAFFB04246A812A00FD671D /* DynamicVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFAFFB0F246A813A00FD671D /* DynamicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAFFB0C246A813A00FD671D /* DynamicViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFAFFB10246A813A00FD671D /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAFFB0D246A813A00FD671D /* DynamicViewController.m */; };
+		BFAFFB11246A813A00FD671D /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFAFFB0E246A813A00FD671D /* DynamicViewController.xib */; };
+		BFAFFB1E246A88B600FD671D /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAFFB1D246A886300FD671D /* icon-60@2x.png */; };
+		BFAFFB3B246A916500FD671D /* DynamicViewController.m in Headers */ = {isa = PBXBuildFile; fileRef = BFAFFB0D246A813A00FD671D /* DynamicViewController.m */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFAFFB01246A812A00FD671D /* DynamicVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAFFB04246A812A00FD671D /* DynamicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicVC.h; sourceTree = "<group>"; };
 		BFAFFB05246A812A00FD671D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAFFB0C246A813A00FD671D /* DynamicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		BFAFFB0D246A813A00FD671D /* DynamicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		BFAFFB0E246A813A00FD671D /* DynamicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
+		BFAFFB1D246A886300FD671D /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +55,12 @@
 		BFAFFB03246A812A00FD671D /* DynamicVC */ = {
 			isa = PBXGroup;
 			children = (
+				BFAFFB1D246A886300FD671D /* icon-60@2x.png */,
 				BFAFFB04246A812A00FD671D /* DynamicVC.h */,
 				BFAFFB05246A812A00FD671D /* Info.plist */,
+				BFAFFB0C246A813A00FD671D /* DynamicViewController.h */,
+				BFAFFB0D246A813A00FD671D /* DynamicViewController.m */,
+				BFAFFB0E246A813A00FD671D /* DynamicViewController.xib */,
 			);
 			path = DynamicVC;
 			sourceTree = "<group>";
@@ -60,6 +73,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAFFB06246A812A00FD671D /* DynamicVC.h in Headers */,
+				BFAFFB0F246A813A00FD671D /* DynamicViewController.h in Headers */,
+				BFAFFB3B246A916500FD671D /* DynamicViewController.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAFFB11246A813A00FD671D /* DynamicViewController.xib in Resources */,
+				BFAFFB1E246A88B600FD671D /* icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAFFB10246A813A00FD671D /* DynamicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
